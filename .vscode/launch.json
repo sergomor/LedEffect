@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+double c;
+int main()
+{
+    cin >> c;
+        switch (c)
+{
+        // 3.1
+    case (3.1):
+    double S, p, m, r, d, c;
+    int n, i;
+    cin >> S >> p >> n;
+    r = p / 100;
+    for (i = 1; i <= n; i++) { d = (1 + r) * (1 + r);
+        };
+    m = (S * r * d) / (12 * (d - 1));
+    cout << m;
+    break
+    return (0);
+    // 3.2
+    case (3.2):
+     double S, p, m, r, d, c;
+    int n, i;
+    cout << "S=";
+        cin >> S;
+        cout << "\n";
+        cout << "m=";
+        cin >> m;
+        cout << "\n";
+        cout << "n=";
+        cin >> n;
+        n = n * 12;
+        cout << "\n";
+        p = pow(m * n / S,
+        1 / n);
+        p = (p - 1) * 100;
+        cout << p,
+        "\n";
+    return (0)
+    break;
+    // 3.3
+    }
+}
